@@ -1,0 +1,7 @@
+UpdateZipCodeIntent update location
+UpdateZipCodeIntent update zip code
+UpdateZipCodeIntent my new zip code is {ZIPCODE}
+
+ReccomendActivityIntent what activity should I do today
+ReccomendActivityIntent what should I do today
+ReccomendActivityIntent my zip code is {ZIPCODE}

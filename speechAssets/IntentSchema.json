@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "UpdateZipCodeIntent",
+      "slots": [
+        {
+          "name": "ZIPCODE",
+          "type": "AMAZON.Number"
+        }
+      ]
+    },
+    {
+      "intent": "ReccomendActivityIntent",
+      "slots": [
+        {
+          "name": "ZIPCODE",
+          "type": "AMAZON.Number"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
