@@ -1,0 +1,19 @@
+http://graphical.weather.gov/xml/SOAP_server/ndfdXMLclient.php?
+whichClient=NDFDgenMultiZipCode
+&lat=&lon=
+&zipCodeList=95837
+&Unit=e  //dont need
+&maxt=maxt //want - max - every 12 hours
+&mint=mint // want - min temp - every 12 hours
+&dew=dew  //dont need
+&wspd=wspd //want - windspeed by every 3 hrs
+&sky=sky //dont need
+&wx=wx //want - weather conditions
+&icons=icons //dont want - icons
+&rh=rh //dont want - relative humidity
+&appt=appt //apparent temperature (heat index) dont want
+&wgust=wgust //want - wind gust
+&product=glance //dont want (loads everyone) 
+&product=time-series //want (loads just what you want)
+&numDays=5 //dont wnat - doesn seem to matter
+&wwa=wwa //want - weather advisories
